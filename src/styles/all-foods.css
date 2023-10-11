@@ -1,6 +1,6 @@
-.search__widget,
-.sorting__widget select {
+.search__widget {
   padding: 7px 15px;
+  margin-bottom: 10px;
   border: 1px solid #fde4e4;
   border-radius: 5px;
   cursor: pointer;
