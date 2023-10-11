@@ -1,0 +1,35 @@
+.checkout__bill {
+  background: #fde4e4;
+  padding: 30px;
+}
+
+.checkout__total {
+  border-top: 1px solid #ddd;
+  padding-top: 30px;
+}
+.checkout__form {
+  display: flex;
+  flex-direction: column;
+}
+.col-md-6 input {
+  border: none;
+  border-bottom: 1px solid lightgray;
+  background: white;
+  width: 100%;
+  height: 50px;
+}
+.options {
+  display: flex;
+  align-items: center;
+}
+.btn2 {
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .checkout__bill h6 {
+    font-size: 0.9rem;
+  }
+  .checkout__bill {
+    margin-top: 40px;
+  }
+}
