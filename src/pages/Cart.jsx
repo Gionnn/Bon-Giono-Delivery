@@ -50,7 +50,7 @@ const Cart = () => {
                     <Link to='/foods'>Continue Shopping</Link>
                   </button>
                   <button className='addTOCart__btn'>
-                    <Link to='/checkout'>Proceed to checkout</Link>
+                    <Link to={totalAmount===0 ? '/cart' : '/checkout'}>Proceed to checkout</Link>
                   </button>
                 </div>
               </div>
