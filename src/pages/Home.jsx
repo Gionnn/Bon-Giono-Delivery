@@ -8,8 +8,6 @@ import "../styles/hero-section.css";
 
 import { Link } from "react-router-dom";
 
-import Category from "../components/UI/category/Category.jsx";
-
 import "../styles/home.css";
 
 import featureImg01 from "../assets/images/service-01.png";
