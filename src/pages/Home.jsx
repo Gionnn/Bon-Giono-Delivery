@@ -41,12 +41,12 @@ const featureData = [
     title: "Super Dine In",
     imgUrl: featureImg02,
     desc:
-      "Get Best Restaurant options from our best curated list of dining places."
+      "Get the best food options from our most wanted chefs."
   },
   {
     title: "Easy Pick Up",
     imgUrl: featureImg03,
-    desc: "Get your order easily picked up with any hassle"
+    desc: "Get your order easily picked up without any hassle"
   }
 ];
 
@@ -144,17 +144,13 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-      <section className='pt-0'>
-        <Category />
-      </section>
       <section>
         <Container>
           <Row>
             <Col lg='12' className='text-center'>
-              <h5 className='feature__subtitle mb-4'>What we serve</h5>
               <h2 className='feature__title'>Just sit back at home</h2>
               <h2 className='feature__title'>
-                we will <span>take care</span>
+                we will <span>take care of it</span>
               </h2>
               <p className='mb-1 mt-4 feature__text'>
                 Why you should order from us?
