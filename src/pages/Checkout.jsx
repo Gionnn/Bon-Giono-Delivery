@@ -107,7 +107,7 @@ const Checkout = () => {
                 <Link to='{
                     enterName && enterCountry && enterNumber
                       ? "/done"
-                      : "/checkout"
+                      : ""
                   }'>
                   <button type='submit' className='addTOCart__btn btn2'>
                     Pay
