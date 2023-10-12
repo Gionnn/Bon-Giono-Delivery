@@ -104,7 +104,11 @@ const Checkout = () => {
                   Card
                   <input type='radio' className='option' name='1' />
                 </div>
-                <Link to='/done'>
+                <Link to='{
+                    enterName && enterCountry && enterNumber
+                      ? "/done"
+                      : "/checkout"
+                  }'>
                   <button type='submit' className='addTOCart__btn btn2'>
                     Pay
                   </button>
