@@ -32,4 +32,11 @@
   .checkout__bill {
     margin-top: 40px;
   }
+   .options {
+    display: flex;
+    flex-direction: column;
+  }
+  .options input {
+    margin-bottom: 10px;
+  }
 }
